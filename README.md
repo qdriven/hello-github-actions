@@ -14,4 +14,4 @@ This course will walk you through writing your first action and using it with a 
 ```sh
 git push --set-upstream origin feature/dockerfile
 ```
-- Open a pull request to merge to master
+- Open a pull request to merge to master(remove require pull request review for time being as there is no other reviewer yet)
