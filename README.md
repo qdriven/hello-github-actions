@@ -16,6 +16,9 @@ git push --set-upstream origin feature/dockerfile
 ```
 - Open a pull request to merge to master(remove require pull request review for time being as there is no other reviewer yet)
 
+## Add an Entrypoint.sh file to working branch
+
+Add an Entrypoint.sh file to working branch
 
 ## Branch Setting
 
@@ -31,4 +34,4 @@ git push --set-upstream origin feature/dockerfile
 
 ## Notifications
 
-setup Email addresses to recieve the notifications
+setup Email addresses to recieve the notifications.
