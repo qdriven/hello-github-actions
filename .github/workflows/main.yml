@@ -1,10 +1,12 @@
-name: Action workflow for my Hello World Dockerfile,it is simples
+name: Hello World Action $MY_NAME
 on: [push]
 
 jobs:
   build:
+    name: Hello World Action
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - name: Build the Docker image
-      - run: docker build . --file ../action-a/Dockerfile --tag my-image-name:$(date +%s)
+    - uses: actions/checkout@v1
+    - users: ./action-a
+      env:
+        MY_NAME: "Action!!"
